@@ -1,1 +1,1 @@
-# BiEvlight-CVPR26-
+# BiEvlight [CVPR'2026]
