@@ -16,7 +16,7 @@ Official PyTorch implementation for the " BiEvLight: Bi-level Learning of Task-A
 ## :rocket: News
 <!-- - [ ] Provide a script for inference on the user's own video -->
 
-- [x] 2024/03/05: Initialize the repository
+- [x] 2026/03/05: Initialize the repository
 - [x] 2026/02/21: :tada: :tada: Our paper was accepted in CVPR'2026
 
 ## :bookmark: Table of Content
