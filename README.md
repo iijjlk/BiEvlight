@@ -216,6 +216,4 @@ Official PyTorch implementation for the " BiEvLight: Bi-level Learning of Task-A
 [//]: # (## License and Acknowledgement)
 
 [//]: # (This project is released under the Apache-2.0 license. Our work is built upon [BasicSR]&#40;https://github.com/XPixelGroup/BasicSR&#41;, which is an open source toolbox for image/video restoration tasks. Thanks to the inspirations and codes from [RAFT]&#40;https://github.com/princeton-vl/RAFT&#41;, [event_utils]&#40;https://github.com/TimoStoff/event_utils&#41; and [EvTexture-jupyter]&#40;https://github.com/camenduru/EvTexture-jupyter&#41;.)
-=======
-# BiEvlight [CVPR'2026]
->>>>>>> c9b2160363a226f0d5ac27208f934bff8f191940
+ c9b2160363a226f0d5ac27208f934bff8f191940
