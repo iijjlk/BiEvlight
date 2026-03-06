@@ -4,7 +4,7 @@ Official PyTorch implementation for the " BiEvLight: Bi-level Learning of Task-A
 
 <p align="center">
     <b>BiEvLight (CVPR 2026)</b>:
-    🌐 <a href="xxx" target="_blank">Project</a> | 📃 <a href="xxx" target="_blank">Paper</a> | 🖼️ <a href="xxx" target="_blank">Poster</a> <br>
+    🌐 <a href="xxx" target="_blank">Project</a> | 📃 <a href="https://arxiv.org/abs/2603.04975" target="_blank">Paper</a> | 🖼️ <a href="xxx" target="_blank">Poster</a> <br>
 </p>
 
 
