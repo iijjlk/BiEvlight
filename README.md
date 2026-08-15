@@ -18,7 +18,7 @@ Official PyTorch implementation for the " BiEvLight: Bi-level Learning of Task-A
 
 - [x] 2026/03/05: Initialize the repository
 - [x] 2026/02/21: :tada: :tada: Our paper was accepted in CVPR'2026
-
+- [x] 2026/8/15 Test set results are now available ([link](https://drive.google.com/file/d/1mlTTdbqG1ZheaWsBcIjAKDyCdbuAqpvy/view?usp=drive_link))
 ## :bookmark: Table of Content
 1. [Code](#code)
 2. [Citation](#citation)
