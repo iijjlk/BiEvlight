@@ -8,7 +8,7 @@ Official PyTorch implementation for the " BiEvLight: Bi-level Learning of Task-A
 </p>
 
 
-**Authors**: [Zishu Yao](https://github.com/iijjlk/)<sup>[:email:️](mailto:zishuyao98@gmail.com)</sup>, Xiang-Xiang Su, Shengning Zhou, Guang-Yong Chen, Xing Chen, * Fu Zhou University*
+**Authors**: [Zishu Yao](https://github.com/iijjlk/)<sup>[:email:️](mailto:zishuyao98@gmail.com)</sup>, Xiang-Xiang Su, Shengning Zhou, Guang-Yong Chen, Xing Chen, **Fu Zhou University**
 
 **Feel free to ask questions. If our work helps, please don't hesitate to give us a :star:!**
 
