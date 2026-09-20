@@ -4,7 +4,11 @@ Official PyTorch implementation for the " BiEvLight: Bi-level Learning of Task-A
 
 <p align="center">
     <b>BiEvLight (CVPR 2026)</b>:
-    🌐 <a href="xxx" target="_blank">Project</a> | 📃 <a href="https://openaccess.thecvf.com/CVPR2026" target="_blank">Paper</a> | 🖼️ <a href="./img/poster.pdf" target="_blank">Poster</a> <br>
+    🌐 <a href="xxx" target="_blank">Project</a> | 📃 <a href="https://arxiv.org/abs/2603.04975" target="_blank">Paper</a> | 🖼️ <a href="./img/poster.pdf" target="_blank">Poster</a> <br>
+</p>
+
+<p align="center">
+    <img src="./img/Fig1.png" width="90%">
 </p>
 
 
@@ -16,12 +20,16 @@ Official PyTorch implementation for the " BiEvLight: Bi-level Learning of Task-A
 ## :rocket: News
 <!-- - [ ] Provide a script for inference on the user's own video -->
 
-- [x] 2026/03/05: Initialize the repository
-- [x] 2026/02/21: :tada: :tada: Our paper was accepted in CVPR'2026
-- [x] 2026/8/15 Test set results are now available ([link](https://drive.google.com/file/d/1GWCIK1cW5TbBiJs8OwUqv0oTQAUSocnd/view?usp=drive_link))
+- [x] 2026/03/05: Initialize the repository.
+- [x] 2026/02/21: :tada: :tada: Our paper was accepted in CVPR'2026.
+- [x] 2026/8/15 Test set results are now available ([link](https://drive.google.com/file/d/1GWCIK1cW5TbBiJs8OwUqv0oTQAUSocnd/view?usp=drive_link)).
+- [x] 2026/9/20 Test Code are now available.
 ## :bookmark: Table of Content
-1. [Code](#code)
-2. [Citation](#citation)
+
+1. [Code](#Code)
+2. [Methods](#Methods)
+3. [Results](#Results)
+3. [Citation](#Citation)
 3. [Contact](#contact)
 4. [License and Acknowledgement](#license-and-acknowledgement)
 
@@ -29,7 +37,33 @@ Official PyTorch implementation for the " BiEvLight: Bi-level Learning of Task-A
 
 ## Code
 
-Will be public soon!
+```
+python test.py --opt ./Options/BiEvLight_inference.yml
+```
+
+## Methods
+
+<p align="center">
+    <img src="./img/Fig4.png" width="90%">
+</p>
+
+## Algorithm
+<p align="center">
+    <img src="./img/Fig5.png" width="90%">
+</p>
+
+## Results
+
+
+### Qualitative Comparison
+<p align="center">
+    <img src="./img/Fig3.png" width="90%">
+</p>
+
+### Quantitative Comparison
+<p align="center">
+    <img src="./img/Fig2.png" width="90%">
+</p>
 
 
 ## Citation
