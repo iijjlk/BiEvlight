@@ -1,0 +1,71 @@
+# BiEvLight inference configuration.
+# Pass this file with: python test_from_dataset_SDE.py --opt Options/BiEvLight_inference.yml --weights /path/to/bievlight.pth
+
+name: BiEvLight_inference
+model_type: ImageCleanModel_Bilevel_fusion
+scale: 1
+num_gpu: 1
+manual_seed: 100
+
+datasets:
+  val:
+    name: ValSet
+    type: Bilevel_eventDataset
+    voxel_channel: 16
+    is_split_event: true
+
+    dataset_root: E:\work\dataset\Low_light\SDE\SDE_sort\SDE_in\test
+    normal_subdir: E:\work\dataset\Low_light\SDE\SDE_sort\SDE_in\test\normal
+    low_subdir: E:\work\dataset\Low_light\SDE\SDE_sort\SDE_in\test\low
+    events_subdir: E:\work\dataset\Low_light\SDE\SDE_sort\SDE_in\test\events
+    events_denoising_subdir: E:\work\dataset\Low_light\SDE\SDE_sort\SDE_in\test\events_denoising_high
+
+    height: 260
+    width: 346
+    num_worker_per_gpu: 8
+    batch_size_per_gpu: 1
+    io_backend:
+      type: disk
+
+network_g:
+  type: EventFormer_Bilevel_event_fusion
+  in_channels: 3
+  voxel_channel: 16
+  out_channels: 3
+  n_feat: 40
+  stage: 1
+  num_blocks: [1,2,2]
+  # Retinex Decom initialization checkpoint. The code also loads the matching
+  # init_high checkpoint by replacing "init_low" with "init_high".
+  path: E:\work\code\low_level\LLIE\BiEvLight_release\ckpt\init_low.pth
+
+path:
+  # Trained BiEvLight enhancement checkpoint for test.py.
+  pretrain_network_g: E:\work\code\low_level\LLIE\BiEvLight_release\ckpt\sde_in_best.pth
+  strict_load_g: true
+  resume_state: ~
+
+# Compatibility only: ImageCleanModel_Bilevel_fusion reads this flag during
+# construction even when is_train is false.
+train:
+  mixing_augs:
+    mixup: false
+
+val:
+  window_size: 4
+  save_img: true
+  rgb2bgr: true
+  use_image: false
+  max_minibatch: 8
+  save_first_n: 10
+  metrics:
+    psnr:
+      type: calculate_psnr
+      crop_border: 0
+      test_y_channel: false
+
+dist_params:
+  backend: nccl
+  port: 29500
+
+
