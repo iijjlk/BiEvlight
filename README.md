@@ -1,9 +1,9 @@
-# BiEvLight (CVPR 2026)
+# BiEvLight 
 
 Official PyTorch implementation for the " BiEvLight: Bi-level Learning of Task-Aware Event Refinement for Low-Light Image Enhancement" (CVPR 2026).
 
 <p align="center">
-    <b>BiEvLight (CVPR 2026)</b>:
+    <b>BiEvLight</b>:
     🌐 <a href="xxx" target="_blank">Project</a> | 📃 <a href="https://arxiv.org/abs/2603.04975" target="_blank">Paper</a> | 🖼️ <a href="./img/poster.pdf" target="_blank">Poster</a> <br>
 </p>
 
